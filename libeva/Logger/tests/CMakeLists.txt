@@ -1,0 +1,2 @@
+add_executable(eLogfile_test logfile_test.cc)
+target_link_libraries(eLogfile_test eva_base)

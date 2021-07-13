@@ -1,0 +1,2 @@
+add_executable(finegrainedqueue_test1 tests/FineGrainedQueue_test1.cc)
+target_link_libraries( finegrainedqueue_test1 pthread )
