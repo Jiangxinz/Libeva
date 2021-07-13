@@ -1,0 +1,10 @@
+
+Requires:
+  Linux kernel version >= 2.6.28.
+  GCC >= 4.7 or Clang >= 3.5
+
+Tested on:
+  CentOS 6.5
+
+To build, run:
+  ./build.sh
