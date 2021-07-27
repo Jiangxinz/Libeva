@@ -1,0 +1,5 @@
+为了保证资源能够正确释放
+对socket描述符封装了一个RAII类Socket，
+它是noncopyable，但是可移动构造/拷贝,
+内部使用了桥模式，对socket描述符的实际操作，和关闭都在Impl类中，
+同时socket只有一个unique_ptr指向该Imple，保证资源的正确释放

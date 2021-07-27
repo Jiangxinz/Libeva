@@ -1,0 +1,8 @@
+add_executable(acceptor_test1 Acceptor_test1.cc)
+target_link_libraries(acceptor_test1 eva_base)
+
+add_executable(acceptor_test2 Acceptor_test2.cc)
+target_link_libraries(acceptor_test2 eva_base)
+
+add_executable(tcpserver_test TcpServer_test1.cc)
+target_link_libraries(tcpserver_test eva_base)

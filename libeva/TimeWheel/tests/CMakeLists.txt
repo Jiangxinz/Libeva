@@ -1,0 +1,5 @@
+add_executable(timewheel_test TimeWheel_test.cc)
+target_link_libraries(timewheel_test eva_base)
+
+add_executable(timewheel_test2 TimeWheel_test2.cc)
+target_link_libraries(timewheel_test2 eva_base)
